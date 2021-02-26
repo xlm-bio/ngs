@@ -1,0 +1,4 @@
+perl scaffold_info_TGS_canu.pl -fasta /data/pipeline/pipeline1/test/tempdir/test2/canu/test2.contigs.fasta -outfile a
+perl scaffold_info_TGS_flye.pl -fasta /data/pipeline/pipeline1/test/tempdir/test1/flye/assembly.fasta -info /data/pipeline/pipeline1/test/tempdir/test1/flye/assembly_info.txt -outfile a
+perl  scaffold_info_TGS_NGS1_canu.pl -fasta /data2/liudongmei/GCtype/NGS_TGS/tempdir/JCM_4385/canu/JCM_4385.contigs.fasta -depth /data2/liudongmei/GCtype/NGS_TGS/tempdir/JCM_4385/alignment/JCM_4385.depth -outfile a
+perl scaffold_info_TGS_NGS1_flye.pl -fasta /data/pipeline/pipeline1/test/tempdir/test2/flye/assembly.fasta -info /data/pipeline/pipeline1/test/tempdir/test2/flye/assembly_info.txt -depth /data/pipeline/pipeline1/test/tempdir/test2/alignment/test2.depth -outfile a
